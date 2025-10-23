@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "732591395645",
+    "project_id": "magazinze-infos",
+    "storage_bucket": "magazinze-infos.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732591395645:android:0a4a754d9c7abde90eab54",
+        "android_client_info": {
+          "package_name": "com.example.magazineinfos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWEBCSYFPeXZEIUBNsikR2WTlchlRlBKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
