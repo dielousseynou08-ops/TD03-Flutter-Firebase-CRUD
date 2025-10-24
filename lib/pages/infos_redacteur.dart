@@ -127,12 +127,24 @@ class _InformationRedacteurState extends State<InformationRedacteur> {
               Map<String, dynamic> data =
                   document.data()! as Map<String, dynamic>;
               return Card(
+                margin: EdgeInsetsGeometry.all(8),
+
                 child: ListTile(
-                  title: Text(data['name'] ?? 'Nom inconnu'),
+                  title: Text(
+                    data['name'] ?? 'Nom inconnu',
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
                   subtitle: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(data['spécialité'] ?? 'Aucune spécialité'),
+                      Text(
+                        data['spécialité'] ?? 'Aucune spécialité',
+                        style: TextStyle(
+                          fontSize: 14,
+                          color: Colors.blueAccent,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                       Row(
                         children: [
                           IconButton(
